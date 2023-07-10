@@ -25,7 +25,7 @@ namespace OtelRezervasyon
             {
                 //TODO: delete these lines before release. debug purpose code lines:
                 //SQLHelper.ExecuteCommand("ALTER DATABASE " + SQLHelper.DatabaseName + " SET SINGLE_USER WITH ROLLBACK IMMEDIATE", connection);
-                SQLHelper.ExecuteCommand("DROP DATABASE " + SQLHelper.DatabaseName, connection);
+                //SQLHelper.ExecuteCommand("DROP DATABASE " + SQLHelper.DatabaseName, connection);
                 //----------------------------------------------------
 
                 SQLHelper.CreateDatabaseIfNotExist(connection, SQLHelper.DatabaseName);
@@ -158,7 +158,7 @@ namespace OtelRezervasyon
             }
 
             // debug purpose open main menu
-            WindowManager.MainMenu.Show();
+            //WindowManager.MainMenu.Show();
             SQLHelper.PrintAllData();
         }
 

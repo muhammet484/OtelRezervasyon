@@ -13,7 +13,7 @@ namespace OtelRezervasyon
     public partial class DebugWindow : Form
     {
         // You can close this window by making this bool false
-        static bool debugMode = true;
+        static bool debugMode = false;
 
         private static ulong __printCount__ = 0;
         public static bool DebugMode
