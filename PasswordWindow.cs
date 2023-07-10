@@ -196,6 +196,7 @@ namespace OtelRezervasyon
             SystemManager.EmployeeID = EmployeeID;
 
             WindowManager.MainMenu.Show();
+            Hide();
         }
 
         private void IdTextBox_KeyPress(object sender, KeyPressEventArgs e)
